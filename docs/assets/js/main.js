@@ -1,9 +1,9 @@
  function changeImage(){
   document.getElementById("dwnld-img").src = "assets/img/home/dwnld.gif";
   setTimeout(function(){
-    window.open("https://github.com/amijugjug/amijugjug.github.io/blob/main/docs/notfound.html","_blank");
+    window.open("notfound.html","_blank");
     document.getElementById("dwnld-img").src = "assets/img/home/dwnld.png";
-  },5100);
+  },5200);
 }
 (function() {
   "use strict";

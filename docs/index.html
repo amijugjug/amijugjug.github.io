@@ -88,14 +88,15 @@
             <div class="about-descr">
               <p class="p-heading">Hello World !!!</p>
               <p class="separator">I am looking for an innovative and challenging environment where I can enhance my skill set and show up the best of mine through teamwork a sense of responsibility and an attitude to learn. Staying in Bahraich, Uttar Pradesh, I am interested in problem solving and learning new stuff. I would like to learn more on development of new things weather in app or web. I am a M.C.A student wanting to increase my knowledge on computer science as well.</p>
-            
-              <div class="downloadCV" >
-                <p class="p-heading">
-                  Download my Resume <a href="notfound.html"><img class="resume" onclick="changeImage()" src="assets/img/home/dwnld.png"></a>
-                </p>
-              </div>
-            </div>  
+
+              <p class="p-heading" style="font-size: 20px;">
+                Download my Resume<img id="dwnld-img" onclick="changeImage()" src="assets/img/home/dwnld.png">
+              </p>
+
+            </div>
+
           </div>
+
         </div>
       </div>
     </div><!-- End About Section -->
@@ -113,9 +114,8 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="services-block">
-                <!-- <i class="bi bi-brightness-high"></i> -->
-                <img src="assets/img/techstack/C++.png">
+              <div class="services-block" >
+                <img src="assets/img/techstack/C++.png"f>
                 <span>C++</span>
                 <p class="separator">A handful experience of C++ language.</p>
               </div>
@@ -124,7 +124,6 @@
             <div class="swiper-slide">
               <div class="services-block">
                 <img src="assets/img/techstack/python.gif">
-                <!-- <i class="bi bi-briefcase"></i> -->
                 <span>Python</span>
                 <p class="separator">In touch for developing apps.</p>
               </div>
@@ -133,9 +132,8 @@
             <div class="swiper-slide">
               <div class="services-block">
                 <img src="assets/img/techstack/java.gif">
-                <!-- <i class="bi bi-card-checklist"></i> -->
                 <span>Core Java</span>
-                <p class="separator">Abhi kuchh likhenge.</p>
+                <p class="separator">A well understanding of OOPs.</p>
               </div>
             </div><!-- End testimonial item -->
 
@@ -320,11 +318,10 @@
     
 
   <!-- ======= Contact Section ======= -->
-    <div id="contact" class="paddsection">
+    <div id="contact" class="paddsection container ">
       <div class="container">
         <div class="contact-block1">
           <div class="row">
-
             <div class="col-lg-6">
               <div class="contact-contact">
                 <h2 class="mb-30">GET IN TOUCH</h2>
@@ -336,7 +333,7 @@
                 </ul>
               </div>
               <div id="footer">
-                    <div class="socials-media text-center">
+                    <div class="socials-media">
                       <ul class="list-unstyled">
                         <li><a href="https://github.com/amijugjug"><i class="bi bi-github"></i></a></li>
                         <li><a href="https://twitter.com/amijugjug"><i class="bi bi-twitter"></i></a></li>
@@ -347,7 +344,7 @@
               </div>  
             </div>
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="https://formspree.io/f/moqynkjj" method="post" role="form" class="php-email-form">
                 <div class="row gy-3">
 
                   <div class="col-lg-6">
@@ -395,8 +392,8 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <div>
-    <img style="display: block;margin-left: auto;margin-right: auto;" class="footer-class" src="assets/img/home/foot.jpg">
+  <div class="">
+    <img style="display: block; margin-left: auto; margin-right: auto;position:relative;" class="footer-class " src="assets/img/home/foot.jpg">
   </div>
   <!-- End Footer -->
 

@@ -1,10 +1,9 @@
  function changeImage(){
-  $(".downloadCV").html("<p>Download my Resume<img src='assets/img/dwnld.gif'></p>");
+  document.getElementById("dwnld-img").src = "assets/img/home/dwnld.gif";
   setTimeout(function(){
-    window.open("https://docs.google.com/uc?authuser=0&id=0BzUOptk4o8-NY0xOVnBKOTBDdm8&export=download","_blank");
+    window.open("notfound.html","_blank");
+    document.getElementById("dwnld-img").src = "assets/img/home/dwnld.png";
   },5000);
-  $(".resume").addClass("downloaded");
-  $(".downloaded").removeClass("resume");
 }
 (function() {
   "use strict";

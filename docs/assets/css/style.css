@@ -567,6 +567,8 @@ p {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  align-items: center;
+
 }
 
 .services-block span {
@@ -1063,9 +1065,13 @@ blockquote {
 }
 
 #footer .socials-media ul li {
+  margin-right: 0;
+  margin-left: 0;
+  float: none;
+  display: inline-block;/*
   float: left;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 10px;*/
 }
 
 #footer .socials-media ul li a {
@@ -1161,13 +1167,6 @@ blockquote {
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
   }
 }
 

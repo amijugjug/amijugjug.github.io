@@ -12,4 +12,4 @@
 	<li><p>JavaScript</p></li>
 	<li><p>PHP</p></li>
 </ul>
-<h3>Special thanks to <strong> shrutiagrawal2232 </strong> who have given the idea of portfolio and helped out during process. </h3>
+<p>Special thanks to <strong> shrutiagrawal2232 </strong> who have given the idea of portfolio and helped out during process. </p>
